@@ -1,0 +1,84 @@
+textarea,
+button,
+select {
+    outline: none !important;
+}
+
+textarea::placeholder {
+    color: #000;
+    font-weight: 500;
+}
+
+#box {
+    width: 100% !important;
+}
+
+#result {
+    text-align: justify;
+    font-weight: 500;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e0e0e0;
+    border-radius: 8px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
